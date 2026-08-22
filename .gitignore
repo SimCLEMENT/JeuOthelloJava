@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+/.metadata/
+=======
+# Fichiers de configuration IDE
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+*.iml
+
+# Fichiers de build et dépendances
+out/
+target/
+build/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de logs
+*.log
+>>>>>>> 25f18bcc25a8590e1c709dfc9bb3cefbaad4daa1
