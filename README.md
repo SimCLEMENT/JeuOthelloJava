@@ -77,13 +77,6 @@ Le chargement utilise un `FileChooser` filtré sur l'extension, vérifie le magi
 
 ## Contributors
 
-<!-- Ajouter ici la liste des membres du groupe -->
--
--
--
- 
- 
- Groupe de la journée 3 :
 - CHUQUET Anael
 - GAUMONT Gabriel
 - CLEMENT Simon
