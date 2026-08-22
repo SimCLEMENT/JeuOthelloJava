@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="but.info.sae2_12.controller.ControleurJeu">
+   <children>
+      <Button mnemonicParsing="false" onAction="#onRandom" text="Random">
+         <VBox.margin><Insets bottom="3.0" top="3.0" /></VBox.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#onTestState" text="Etat de Test">
+         <VBox.margin><Insets bottom="3.0" /></VBox.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#onBlackLineTest" text="Test Ligne Noir">
+         <VBox.margin><Insets bottom="3.0" /></VBox.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#onWhiteLineTest" text="Test Ligne Blanche">
+         <VBox.margin><Insets bottom="3.0" /></VBox.margin>
+      </Button>
+      <CheckBox fx:id="checkEdition" mnemonicParsing="false" onAction="#onModeEdition" text="mode edition">
+         <VBox.margin><Insets bottom="3.0" top="3.0" /></VBox.margin>
+      </CheckBox>
+      <HBox id="editeur" fx:id="boxEditeur" prefHeight="30.0" prefWidth="500.0">
+         <children>
+            <ToggleButton mnemonicParsing="false" onAction="#onNoir" text="Noir">
+               <toggleGroup><ToggleGroup fx:id="G1" /></toggleGroup>
+            </ToggleButton>
+            <ToggleButton mnemonicParsing="false" onAction="#onBlanc" text="Blanc" toggleGroup="$G1" />
+            <ToggleButton mnemonicParsing="false" onAction="#onAnneau" text="Anneau">
+               <toggleGroup><ToggleGroup fx:id="G2" /></toggleGroup>
+            </ToggleButton>
+            <ToggleButton mnemonicParsing="false" onAction="#onPion" text="Pion" toggleGroup="$G2" />
+         </children>
+         <VBox.margin><Insets bottom="3.0" top="2.0" /></VBox.margin>
+      </HBox>
+      <ColorPicker fx:id="color1" />
+      <ColorPicker fx:id="color2" />
+      <ColorPicker fx:id="color3" />
+      <CheckBox fx:id="checkCoordinate" mnemonicParsing="false" text="Afficher coordonnées" />
+      <ListView fx:id="listViewMode" prefHeight="100.0" prefWidth="600.0" />
+      <HBox prefHeight="30.0" prefWidth="200.0">
+         <children>
+            <Slider fx:id="sliderEpaisseur" max="5.0" min="1.0" value="1.0" />
+            <Label text="Épaisseur des bordures" />
+         </children>
+         <VBox.margin><Insets bottom="3.0" top="3.0" /></VBox.margin>
+      </HBox>
+   </children>
+</VBox>
