@@ -58,13 +58,6 @@ mvn install
 
 ## Contributors
 
-<!-- Ajouter ici la liste des membres du groupe -->
--
--
--
- 
- 
- Groupe de la journée 1 et 2 :
 - MARECHAL Nils
 - BROUILLARD Leopold
 - CLEMENT Simon
