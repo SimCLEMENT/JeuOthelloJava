@@ -1,4 +1,4 @@
-# SAÉ 2.1 & 2.2 — Jeu hexagonal type Yinsh & IA Minimax
+# SAÉ 2.1 & 2.2 — Jeu hexagonal
 
 ## Présentation
 
