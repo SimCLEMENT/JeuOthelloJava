@@ -62,7 +62,7 @@ Les classes s'y prêtant disposent de tests unitaires dans `src/test/java`, nota
 mvn install
 ```
 
-## ✍️ Auteur(s)
+## ✍️ Auteurs
 
 - MARECHAL Nils
 - BROUILLARD Leopold
