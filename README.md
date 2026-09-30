@@ -2,6 +2,8 @@
 
 Interface graphique JavaFX permettant de jouer au jeu hexagonal développé lors du premier livrable, avec configuration de l'IA et sauvegarde/chargement de partie.
 
+🎥 Démo vidéo : [lien YouTube non répertorié] 
+
 ## 📖 Contexte
 
 Développer une interface graphique JavaFX permettant de jouer au jeu développé lors du premier livrable. Cette phase s'est déroulée sur **1 journée**.
