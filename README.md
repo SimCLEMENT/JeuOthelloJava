@@ -1,14 +1,20 @@
 # Livrable 1 — Modèle du jeu & IA Minimax
 
-## Objectif
+Moteur de jeu hexagonal jouable en ligne de commande, avec une IA basée sur l'algorithme Minimax et élagage alpha-bêta.
+
+🎥 Démo vidéo : [lien YouTube non répertorié] 
+
+
+## 📖 Contexte
 
 Développer le moteur de jeu (règles, coordonnées hexagonales, actions) ainsi qu'une intelligence artificielle capable de jouer, à partir d'une situation donnée, le coup qui lui semble le plus pertinent. Cette phase s'est déroulée sur **2 jours**.
 
-Fonctionnalités attendues à l'issue de cette phase :
+## ✨ Fonctionnalités
+
 - Possibilité de jouer au jeu en ligne de commande.
 - Une IA renvoyant le coup le plus pertinent pour une situation donnée.
 
-## Architecture
+## 🏗️ Architecture
 
 ### Module `HexagonalCoordinate`
 
@@ -46,17 +52,17 @@ Module indépendant, déclaré en dépendance du projet principal, gérant la re
 
 - **`CUIMain`** : interface en ligne de commande permettant de visualiser le plateau et de jouer une partie (génération aléatoire de 5 anneaux par équipe, affichage ASCII du terrain).
 
-## Tests
+## 🧪 Tests
 
 Les classes s'y prêtant disposent de tests unitaires dans `src/test/java`, notamment sur les situations de test prédéfinies (`stateForWhiteLineTest`, `stateForBlackLineTest`, `testState`, `doubleLineStateTest`).
 
-## Lancer le projet
+## 🚀 Lancement du projet
 
 ```bash
 mvn install
 ```
 
-## Contributors
+## ✍️ Auteur(s)
 
 - MARECHAL Nils
 - BROUILLARD Leopold
