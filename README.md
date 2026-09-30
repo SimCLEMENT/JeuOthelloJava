@@ -83,7 +83,7 @@ mvn javafx:run
 ```
 *(commandes à exécuter dans le dossier `application`)*
 
-## ✍️ Auteur(s)
+## ✍️ Auteurs
 
 - CHUQUET Anael
 - GAUMONT Gabriel
