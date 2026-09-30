@@ -2,6 +2,8 @@
 
 Implémentation d'un jeu de stratégie hexagonal, avec moteur de jeu, IA Minimax et interface graphique JavaFX.
 
+🎥 Démo vidéo : [lien YouTube non répertorié] 
+
 ## 📖 Contexte
 
 Ce dépôt contient le rendu de la SAÉ 2.1 & 2.2 (BUT Informatique, Université de Caen Normandie, 2025-2026), réalisée en **3 jours** répartis en **2 livrables** :
@@ -49,7 +51,17 @@ Chaque phase de développement a été réalisée sur des branches secondaires d
 - Maven (gestion multi-module)
 - JavaFX (interface graphique, FXML, propriétés observables)
 
-## ✍️ Auteur(s)
+## ✍️ Auteurs
 
-- Simon CLEMENT
-- [Autres membres de l'équipe, si applicable]
+**Livrable 1 — Jour 1 & 2 :**
+- MARECHAL Nils
+- BROUILLARD Leopold
+- CLEMENT Simon
+- COLOGON Etienne
+- DUMENIL Gaelig
+
+**Livrable 2 — Jour 3 :**
+- CHUQUET Anael
+- GAUMONT Gabriel
+- CLEMENT Simon
+- DE MAZZI Leandro
